@@ -6,7 +6,7 @@ namespace Oefeningenreeks1
 {
     class Faculteit
     {
-        public int Number { get; set; }
+        public int Number { get; set; } 
         public Faculteit(int number)
         {
             this.Number = number;
