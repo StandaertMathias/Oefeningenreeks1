@@ -6,7 +6,8 @@ namespace Oefeningenreeks1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Faculteit faculteit = new Faculteit(5);
+            Console.WriteLine($"faculteit van 5 is {faculteit.Bereken()}");
         }
     }
 }
